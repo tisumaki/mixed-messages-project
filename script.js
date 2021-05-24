@@ -5,17 +5,17 @@ let lists = {
 };
 
 const mixedCompliment = () => {
-    const randomCompliment = lists.listCompliment[Math.floor(Math.random() * 5)];
+    const randomCompliment = lists.listCompliment[Math.floor(Math.random() * lists.listCompliment.length)];
     return `You look ${randomCompliment}!`
 };
 
 const mixedActivity = () => {
-    const randomActivity = lists.listActivity[Math.floor(Math.random() * 5)];
+    const randomActivity = lists.listActivity[Math.floor(Math.random() * lists.listActivity.length)];
     return `We suggest that you should ${randomActivity}.`
 };
 
 const mixedReminder = () => {
-    const randomReminder = lists.listReminder[Math.floor(Math.random() * 5)];
+    const randomReminder = lists.listReminder[Math.floor(Math.random() * lists.listReminder.length)];
     return `Remember ${randomReminder}!`
 };
 
