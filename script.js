@@ -6,12 +6,12 @@ let lists = {
 
 const mixedCompliment = () => {
     const randomCompliment = lists.listCompliment[Math.floor(Math.random() * 5)];
-    return `You look ${randomCompliment} today!`
+    return `You look ${randomCompliment}!`
 };
 
 const mixedActivity = () => {
     const randomActivity = lists.listActivity[Math.floor(Math.random() * 5)];
-    return `We suggest that today you should ${randomActivity}.`
+    return `We suggest that you should ${randomActivity}.`
 };
 
 const mixedReminder = () => {
