@@ -19,5 +19,7 @@ const mixedReminder = () => {
     return `Remember ${randomReminder}!`
 };
 
-const mixedMessage = `Our message for you today is: ${mixedCompliment()} ${mixedActivity()} ${mixedReminder()}`
-console.log(mixedMessage);
+const mixedMessage = () => {
+    console.log(`Our message for you today is: ${mixedCompliment()} ${mixedActivity()} ${mixedReminder()}`)
+} 
+mixedMessage();
